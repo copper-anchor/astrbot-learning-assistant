@@ -1,4 +1,4 @@
-<img width="700" height="1485" alt="image" src="https://github.com/user-attachments/assets/477fda7a-ccc0-4532-80d8-6371c878b3b2" /># agent.No1
+<img width="2518" height="1595" alt="屏幕截图 2026-06-22 235817" src="https://github.com/user-attachments/assets/297f3397-afeb-4c81-9349-57a618457bf8" /># agent.No1
 ## 项目简介
 基于 AstrBot 搭建的学习辅助 QQ Bot。
 项目主要完成了模型接入、插件配置、知识库接入、服务器部署和日常维护工作。
@@ -19,12 +19,16 @@
 - text-embedding-v3
 - Qwen3-Reranker
 ## 项目截图
-<img width="2003" height="1242" alt="屏幕截图 2026-06-22 235910" src="https://github.com/user-attachments/assets/dcf53b7a-c54a-46c9-9fbd-0f26a71d3197" />
-<img width="1989" height="1291" alt="屏幕截图 2026-06-22 235900" src="https://github.com/user-attachments/assets/de167bc0-6412-4982-9749-cd0c53bcd2ac" />
-<img width="2559" height="1217" alt="屏幕截图 2026-06-22 235844" src="https://github.com/user-attachments/assets/d62f2b0c-c884-4a94-9959-47753be0c7a6" />
-<img width="2559" height="1580" alt="屏幕截图 2026-06-22 235830" src="https://github.com/user-attachments/assets/cd7902bc-b27d-43a5-8399-02db886d92e3" />
-<img width="2518" height="1595" alt="屏幕截图 2026-06-22 235817" src="https://github.com/user-attachments/assets/3fb3ab9c-17e3-4978-8d37-bdfb4aecf272" />
-<img width="2313" height="1564" alt="屏幕截图 2026-06-22 235807" src="https://github.com/user-attachments/assets/e6ca0bb2-1fce-41aa-93da-74f3771ba98f" />
+对话：
+<img width="2559" height="1217" alt="屏幕截图 2026-06-22 235844" src="https://github.com/user-attachments/assets/93b87969-de48-40a1-bb5a-92f109297197" />
+<img width="1989" height="1291" alt="屏幕截图 2026-06-22 235900" src="https://github.com/user-attachments/assets/8e64badb-b87d-4d2b-bfed-96b15c8541d1" />
+<img width="2003" height="1242" alt="屏幕截图 2026-06-22 235910" src="https://github.com/user-attachments/assets/9e662472-ecc8-42de-8541-7de1aa821959" />
+日志：
+<img width="2313" height="1564" alt="屏幕截图 2026-06-22 235807" src="https://github.com/user-attachments/assets/ea5c43f8-c654-4a63-81c6-ff390c739bab" />
+<img width="2518" height="1595" alt="屏幕截图 2026-06-22 235817" src="https://github.com/user-attachments/assets/dccab48b-37be-4350-9547-e793d6306974" />
+<img width="2559" height="1580" alt="屏幕截图 2026-06-22 235830" src="https://github.com/user-attachments/assets/35fcd4f0-3dc4-4228-9b1b-eef01a1788d1" />
+
+
 
 ## 开发收获
 在项目搭建过程中学习并实践了：
