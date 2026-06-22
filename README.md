@@ -1,5 +1,5 @@
-# agent.No1
-## 项目简介
+# 我的作品
+## 作品简介
 基于 AstrBot 搭建的学习辅助 QQ Bot。
 项目部署于 Linux 云服务器
 集成 DeepSeek 大模型，RAG知识库检索，联网搜索及群管理，小游戏等功能。
@@ -28,7 +28,7 @@
 - AstrBot
 ### 工具
 GitHub
-## 项目截图
+## 作品截图
 对话：
 <img width="2559" height="1217" alt="屏幕截图 2026-06-22 235844" src="https://github.com/user-attachments/assets/93b87969-de48-40a1-bb5a-92f109297197" />
 <img width="1989" height="1291" alt="屏幕截图 2026-06-22 235900" src="https://github.com/user-attachments/assets/8e64badb-b87d-4d2b-bfed-96b15c8541d1" />
@@ -89,7 +89,7 @@ GitHub
 - API 调用与模型配置
 - AstrBot 插件管理与调试
 - LLM 工作原理与幻觉问题分析
-## 项目成果
+## 成果
 - 成功部署到云服务器且成功运行至今
 - 支持多人使用
 - 实现知识库问答
