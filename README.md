@@ -1,23 +1,33 @@
 # agent.No1
 ## 项目简介
 基于 AstrBot 搭建的学习辅助 QQ Bot。
-项目主要完成了模型接入、插件配置、知识库接入、服务器部署和日常维护工作。
+项目部署于 Linux 云服务器
+集成 DeepSeek 大模型，RAG知识库检索，联网搜索及群管理，小游戏等功能。
+本人主要负责部署，配置，调试与维护工作。
 ## 功能
+已接入功能
+
 - RAG知识库问答
 - 联网搜索
 - 每日单词推送
 - 插件扩展
 - Q群管理（监控对话中是否出现屏蔽词，入群防人机验证...)
 - 活跃气氛小游戏
+- 其中部分功能基于 AstrBot 插件生态实现。
 ## 技术栈
+
+### 开发环境
 - Python
-- AstrBot
-- DeepSeek API
 - Linux
 - Ubuntu Server
-- GitHub
+### AI能力
+- DeepSeek API
 - text-embedding-v3
 - Qwen3-Reranker
+### 框架
+- AstrBot
+### 工具
+GitHub
 ## 项目截图
 对话：
 <img width="2559" height="1217" alt="屏幕截图 2026-06-22 235844" src="https://github.com/user-attachments/assets/93b87969-de48-40a1-bb5a-92f109297197" />
@@ -28,18 +38,42 @@
 <img width="2518" height="1595" alt="屏幕截图 2026-06-22 235817" src="https://github.com/user-attachments/assets/dccab48b-37be-4350-9547-e793d6306974" />
 <img width="2559" height="1580" alt="屏幕截图 2026-06-22 235830" src="https://github.com/user-attachments/assets/35fcd4f0-3dc4-4228-9b1b-eef01a1788d1" />
 
+## 遇到的问题
 
+### 问题1：模型出现幻觉
+
+原因：知识库召回不足。
+
+解决：优化检索配置并增加重排序模型。
+
+---
+
+### 问题2：插件无法触发
+
+原因：metadata.yaml 配置错误。
+
+解决：检查插件结构并重新加载。
+
+---
+
+### 问题3：API调用失败
+
+原因：配置错误。
+
+解决：重新检查接口参数与模型配置。
 
 ## 开发收获
 在项目搭建过程中学习并实践了：
-- Linux服务器基本操作
-- Python基础语法
-- GitHub项目管理
-- Prompt工程基础
-- RAG知识库原理
-- API调用与模型配置
-- AstrBOt插件管理与调试
-- LLM回答问题的本质
+- Linux 云服务器部署
+- Python 基础开发
+- GitHub 项目管理
+- Prompt 工程基础
+- RAG 知识库原理
+- 向量检索与重排序
+- API 调用与模型配置
+- AstrBot 插件管理与调试
+- LLM 工作原理与幻觉问题分析
+
 ## 我的工作
 本项目基于 AstrBot 开源框架搭建
 本人主要负责：
@@ -48,4 +82,3 @@
 - 知识库接入
 - 插件安装与测试
 - Bot日常维护与优化
-   项目中的部分功能来自 AstrBot 插件生态
